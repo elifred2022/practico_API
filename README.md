@@ -28,3 +28,13 @@ https://github.com/platzi/curso-api-rest-javascript-practico/tree/5e56d4c09b3eaa
 
 # video 5 manipulando el DOM ya hice listado de pelicula conusmiendo el API_KEY
 
+# video 8 location y hash navigation
+
+- location: herramienta cn la q podmos leer la URL donde estamos parados: 
+https://developer.mozilla.org/es/docs/Web/API/Location
+
+- onhashchange; heramienta q nos permit ver cada vez cambia nuestro hash:
+https://developer.mozilla.org/es/docs/conflicting/Web/API/Window/hashchange_event
+
+location.hash = 'jojojo'
+

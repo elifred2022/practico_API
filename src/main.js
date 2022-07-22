@@ -68,5 +68,5 @@ async function getCategoriesPreview() {
     console.log({ data, movies });
 } */
 
-getTrendingMoviesPreview();
-getCategoriesPreview();
+/*getTrendingMoviesPreview(); ya no es necesario uarl la llamada en main se hace desde navigation.js
+getCategoriesPreview();*/
