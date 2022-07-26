@@ -38,3 +38,12 @@ https://developer.mozilla.org/es/docs/conflicting/Web/API/Window/hashchange_even
 
 location.hash = 'jojojo'
 
+# mostrando y ocultando secciones, video 9
+
+prueba con location.hash:
+
+location.hash='#category=123'
+'#category=123'
+navigation.js:5 {location: Location}
+navigation.js:43 categories!!
+
