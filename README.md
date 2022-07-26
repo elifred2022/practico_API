@@ -47,3 +47,8 @@ location.hash='#category=123'
 navigation.js:5 {location: Location}
 navigation.js:43 categories!!
 
+# Error carga duplicada, video 10
+
+# filtrando peliulas por categorias quede en video 11
+
+
