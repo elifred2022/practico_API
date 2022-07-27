@@ -129,6 +129,18 @@ async function getCategoriesPreview() {
     }); */
  }
 
+ async function getMoviesBySearch(query) {
+    const { data } = await api('search/movie', {
+        params: {
+            query,
+        },
+    });
+    const movies = data.results;
+
+    createMovies(movies, genericSection);
+
+  
+ }
 /*async function getTrendingMoviesPreview() {
     const res = await fetch('https://api.themoviedb.org/3/trending/movie/day?api_key=' + API_KEY);
     const data = await res.json();
