@@ -28,7 +28,10 @@ function navigator() {
         homePage();
     }
 
-    location.hash
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0; // para q las paginas cada vez sean lamadas se carguen al principio y no abajo
+
+  //  location.hash
 }
 
 function homePage() {

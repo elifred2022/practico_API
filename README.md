@@ -51,4 +51,6 @@ navigation.js:43 categories!!
 
 # filtrando peliulas por categorias quede en video 11
 
+# Retos scroll y dry. video 12
+
 
