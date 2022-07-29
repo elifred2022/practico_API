@@ -8,6 +8,7 @@ trendingBtn.addEventListener('click', () => {
 });
 
 arrowBtn.addEventListener('click', () => {
+    history.back();
     location.hash = '#Home=';
 });
 
@@ -93,7 +94,12 @@ function movieDetailsPage() {
     trendingPreviewSection.classList.add('inactive');
     categoriesPreviewSection.classList.add('inactive');
     genericSection.classList.remove('inactive');
-    movieDetailSection.classList.add('inactive');
+    movieDetailSection.classList.remove('inactive');
+
+    // ['#movie', '23587 es el id de la pelicula']
+    const [_, movieId] = location.hash.split('='); 
+    
+    getMovieById(movieId);
 }
 
 function searchPage() {
@@ -130,4 +136,8 @@ function trendsPage() {
     categoriesPreviewSection.classList.add('inactive');
     genericSection.classList.remove('inactive');
     movieDetailSection.classList.add('inactive');
+
+    headerCategoryTitle.innerHTML = 'Tendencias';
+
+    getTrendingMovies();
 }

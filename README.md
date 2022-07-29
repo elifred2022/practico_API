@@ -55,4 +55,9 @@ navigation.js:43 categories!!
 
 # video 13, buscador
 
+# video 14, Retos: historial de navegación y página de tendencias
+
+# video 15, Endpoint de detalles de una película
+
+
 
