@@ -59,5 +59,6 @@ navigation.js:43 categories!!
 
 # video 15, Endpoint de detalles de una película
 
+# video 16, lista de peliculas recomendadas
 
 
